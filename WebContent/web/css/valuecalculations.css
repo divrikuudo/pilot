@@ -1,0 +1,273 @@
+#valcal_grid tbody tr:nth-child(odd) td,
+ #valcal_grid tbody tr:nth-child(odd) th {
+  background-color: #edeeef;
+  vertical-align:middle;
+}
+
+ #valcal_grid tbody td:first-child {
+border-left-width: 0;
+}
+ #valcal_grid tbody  td
+{
+	 padding: 7px;
+border-left: 1px solid #bfc2c5; 
+}
+#valcal_th  th
+{
+	border-right: 1px solid #FFFFFF;
+}
+
+ #lightbox{
+				display:none;
+        		background:#E1E2E5;
+				opacity:1.0;
+				filter:alpha(opacity=100);
+        		position:absolute;
+				top:0px;
+				left:0px;
+				width:100%;
+				height:100%;
+				z-index:1000;
+        	}
+			#lightbox-panel{
+				display:none;
+				position:fixed;
+				top:300px;
+				left:70%;
+				margin-top:50px;
+				margin-left:-300px;
+				background:#E1E2E5;
+				padding:10px 15px 10px 15px;			
+				z-index:1001;
+			}
+			
+			
+.table-source {
+    text-transform: uppercase;
+    color: #5C5F63;
+    font-size: 11px;
+}
+
+.table-source:hover {
+    text-decoration: none;
+}
+.table thead th {
+    padding: 5px;
+    vertical-align: middle;
+}
+.table thead th.mdalign{
+	text-align:center;
+	} 
+.table tbody td.mdalign{
+	text-align:center;
+	} 
+
+.table th {
+    font-weight: bold;
+}
+div.DataTables_sort_wrapper{
+	font-weight:bold;
+	 text-align: left;
+	  font-size: 12px;
+}
+
+.label-success, .badge-success, .label-success[href], .badge-success[href] {
+    background-color: #76B900;
+}
+.label, .badge {
+     border-radius: 0 0 0 0;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 7px;
+    padding: 6px 4px;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+.value-alert-fail {
+    background-color: #BFC2C5;
+    border: 0 none;
+}
+#mandatory{
+	color:red;
+	position: relative;
+  	font-size: 105%;
+  	line-height: 0;
+  	top: -0.2em;
+  	vertical-align: baseline;
+	}
+#pdflightbox{
+                        display:none;
+                  background:#000000;
+                        opacity:0.5;
+                        filter:alpha(opacity=50);
+                  position:absolute;
+                        top:0px;
+                        left:0px;
+                        width:100%;
+                        height:300%;
+                        z-index:1000;
+            }
+                  #pdflightbox-panel{
+                        display:none;
+                        position:fixed;
+                        top:300px;
+                        left:70%;
+                        margin-left:-425px;
+                        background:#ED8000;
+                        padding:10px 15px 10px 15px;
+                        border:2px solid #CCCCCC;
+                        color:#FFF;
+                        z-index:1001;
+                        width:300px;
+                  }
+  
+	
+	/* for marketdata screen */
+
+	#note{
+	font-size:11px;
+    margin-top: 45px;
+	}
+
+	#labelname {
+    	color: red;
+   	 	margin-left: 300px;
+    	margin-top: -40px;
+		}
+   .control-group.changedata input{
+	border: 1px solid #ED8000;
+	color: #ED8000;
+	border-radius: 0 0 0 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	}
+		#labelchangeData{
+	margin-top: -17px;
+    padding-left: 16px;
+	}
+	#changeData{
+	border: 1px solid #ED8000;
+    width:12px;height:12px;
+    margin-top:5px;
+	}
+	.modal-footer1 {
+  padding: 14px 15px 15px;
+  margin-bottom: 0;
+  text-align: right;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+  -moz-box-shadow: inset 0 1px 0 #ffffff;
+  box-shadow: inset 0 1px 0 #ffffff;
+  *zoom: 1;
+}
+.modal-footer1:before,
+.modal-footer1:after {
+  display: table;
+  content: "";
+}
+.modal-footer1:after {
+  clear: both;
+}
+.modal-footer1 .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.modal-footer1 .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+.modal-footer1 {
+  background-color: transparent;
+  border-top: 1px solid #e1e2e5;
+  padding: 15px;
+}
+
+#vclabel{
+	font-size: 12px;
+font-weight: normal;
+line-height: 20px;
+	}
+	
+#cmy{
+	margin-left:2%
+	}
+#cmy1{
+	margin:0px 0px 15px 24%
+	}
+#yeargroup{
+	margin:0px 0px 15px 2%; 
+		}
+#yeargroup1{
+	margin: 0px 0px 15px 2.9%;
+		}
+		#vd{
+		margin-left:50%;
+		}
+ 
+input.mdata.changemdata{
+border: 1px solid #ED8000; 
+   border-radius: 0 0 0 0;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+   color: #ED8000;
+   transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+input.vcdata.changeVCData{
+border: 1px solid #ED8000;
+   border-radius: 0 0 0 0;
+   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+   color: #ED8000;
+   transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+.module .module-body .vc-table-rule
+{
+border:1px solid #E1E2E5;
+margin:1px -182px 5px -15px;
+}
+
+
+
+.btn-large {
+    padding: 3px 0 !important;
+    width: 98% !important;
+}
+.valign {  vertical-align: top;}
+	 h4 { font-family: ge-inspira !important;}
+	.commonValueDriver	{ border-top:3px solid #c3c3c3;}
+	.save_continue_button	{ cursor:pointer;}
+	.commonValueDriver th.grey, .commonValueDriver.grey {background-color:#edeeef;}
+	.commonValueDriver th.white, .commonValueDriver.white {background-color:white;}
+	.btn-large { width:98% !important;padding:3px 0px!important;}
+	.value_lever_improvements table th, .value_lever_improvements table td { padding: 3px 3px 3px 8px !important; }
+	.value_lever_improvements input {margin-bottom:0px !important; font-family: ge-inspira !important;}
+	.value_lever_improvements {margin-bottom:10px !important; font-family: ge-inspira !important;}
+	#button_selector table th, .table td {padding: 3px 15px;}
+	#summery_table{ padding: 3px; font-family: ge-inspira !important; }
+	.spanmv	{ margin-bottom:0px !important;}
+	table th, table td {font-size:14px;}
+	.info_icon{cursor:pointer;}
+	.modal-body{max-height:none;} 
+	.labelGray {padding:0px; color:#969899;}
+	.labelred {color:red;}
+	.modal-project-table table th, table td {font-size:12px;}
+	table.table_full_loadOP td{font-size:14px !important;}
+	.summary_hide_show_btn {border-left:0px!important;}
+	
+	
+	#button_selector .active {
+background: #3B73B9 !important;
+color: white !important;
+}
+.info_icon{
+	cursor:pointer;
+	}
+.save_continue_button	{ 
+	cursor:pointer;
+	}
+	
+	 #labelGray {
+padding: 0px;
+color: #969899;
+}

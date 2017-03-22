@@ -1,0 +1,584 @@
+/** -----------------------------------------------
+ * 
+ * TABLE OF CONTENTS
+ *
+ * :: Modules
+ * :: Components
+ * :: Overrides
+ * :: Helpers
+ * :: Media Queries
+ * 
+ ------------------------------------------------ */
+
+/** -----------------------------------------
+ * :: Modules
+ ------------------------------------------ */
+ .iids {
+	background-color: rgb(63, 65, 69);
+}
+.barPaddingText{
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.module-selected-units {
+    height: 330px;
+}
+.module-selected-units > h4 {
+    margin-bottom: 10px;
+}
+.module-selected-units .table {
+    margin: 0 0 5px;
+}
+.module-selected-units .module-body {
+    height: 260px;
+}
+
+.module-grid {
+    min-height: 349px;
+    cursor: pointer;
+}
+.module-grid .table th, .module-grid .table td {
+    font-size: 11px;
+    padding: 4px;
+}
+
+/** -----------------------------------------
+ * :: Components
+ ------------------------------------------ */
+.form-new-project {
+    margin-bottom: 0;
+}
+.form-new-project input, .form-new-project textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: -3px;
+    width: 98%;
+}
+.form-new-project textarea {
+    height: 40px;
+}
+
+.navbar-tight {
+    margin: 0;
+}
+
+.btn-save {
+    width: 100%;
+}
+
+.btn-existing {
+    margin-left: 5px;
+}
+
+.btn-circle-close {
+    font-size: 18px;
+    color: #999C9F;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.btn-circle-close:hover {
+    color: #5C5F63;
+    text-decoration: none;
+}
+
+.table-projects {
+    margin-top: 20px;
+    /* For fixing the width of the table - Manage Projects - Added by Viji - Dec 17, 2012 */
+	table-layout: fixed; 
+    word-wrap:break-word; 
+}
+.table-projects td {
+    padding: 12px;
+}
+.table-btn-row {
+    /*width: 30%;*/
+}
+.table-btn-row > .btn {
+    width: 95px;
+    margin-left: 5px;
+}
+.table-btn-row > .btn:first-child {
+    margin-left: 0;
+}
+
+.table-bleed {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.color-clear,
+.color-transparent {
+  visibility: hidden
+}
+
+/** -----------------------------------------
+ * :: Overrides
+ ------------------------------------------ */
+
+/* override snapshot limits */
+.module-snapshot {
+    max-height: 500px;
+}
+
+/* override default help-block styling */
+.help-block {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+/* override default chosen.js styles */
+.chzn-container {
+    box-sizing: border-box;
+}
+.chzn-container-multi .chzn-choices {
+    margin-top: -3px;
+    margin-bottom: 15px;
+}
+
+/* override pagination in data tables */
+.no-pagination .table-controls {
+    display: none;
+}
+
+/* override overly specific nav-pill styles */
+.nav-pills > li.active > a > i,
+.nav-pills > li.active.open i {
+    color: #FFF;
+}
+.nav-pills > li.active.open > a {
+    background-color: #BFC2C5;
+}
+
+/* overrides <hr>s in the module body */
+.module .module-body .table-rule {
+    margin-bottom: 20px;
+}
+
+/* overrides greedy td padding */
+.table td.table-subheading {
+    padding-top: 15px;
+}
+
+/* Data Tables */
+/* Default colors. No rows selected yet. */
+table.dataTable .success {
+    background-color: #75BC43;
+}
+table.dataTable .warning {
+    background-color: #EB821B;
+}
+table.dataTable .disable {
+    background-color: #DDDDDD;
+}
+/* When your row is selected */
+table.dataTable.hasSelectedRows .DTTT_selected td.success {
+    background-color: #75BC43;
+}
+table.dataTable.hasSelectedRows .DTTT_selected td.warning {
+    background-color: #EB821B;
+}
+table.dataTable.hasSelectedRows .DTTT_selected td.disable {
+    background-color: #DDDDDD;
+}
+/* When your row is not selected */
+table.dataTable.hasSelectedRows td.success {
+    background-color: #75BC43;
+}
+table.dataTable.hasSelectedRows td.warning {
+    background-color: #EB821B;
+}
+table.dataTable.hasSelectedRows td.disable {
+    background-color: #CDCDCD;
+}
+/* When your table is empty */
+table.dataTable td.dataTables_empty {
+    font-size: 22px;
+    font-weight: bold;
+    color: #5C5F63;
+    //display: inline-block;
+    background: #EDEEEF;
+    padding: 70px 0 50px;
+}
+.empty-table {
+    background: #EDEEEF;
+}
+
+/** -----------------------------------------
+ * :: Helpers
+ ------------------------------------------ */
+.centered {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.voice-normal {
+    font-weight: normal;
+}
+
+.tight {
+    margin: 0;
+}
+
+/** -----------------------------------------
+ * :: Media Queries
+ ------------------------------------------ */
+ 
+ /*   Load Profile Table   */
+ 
+ .yearClass
+  {
+  font-size:18px;
+  margin-left:29%;
+ 	} 
+ 	
+.yearClass-thumnail {
+	font-size: 11px;
+	margin-left: -1%;
+}	
+ul.legend li
+{
+ float: left;
+ list-style-type: none;
+ padding: 0 0 0 0px;
+ width:60px;
+}
+
+ul.legend
+{
+float: right;
+display:block;
+}
+
+ul.legend span.legendSpan
+{
+float:left;
+height:15px;
+line-height: 15px;
+}
+
+ul.legend .legendImg
+{
+float:left;
+height:15px;
+ margin-right: 7px;
+}
+ 
+ table.heat-map
+ {
+ width:50%;
+ /* font-family:'GE Inspira', Arial; */
+ font-family: "Inconsolata","Consolas",monospace;
+ margin:auto;
+ clear:both;
+ }
+
+ 
+  table.heat-map th.first
+ {
+ width:7%;
+ }
+ 
+ table.heat-map thead th
+ {
+    color: #313337;
+   background: #999C9F;
+     border-left: 1px solid #E1E2E5;
+	    padding: 5px;
+    vertical-align: middle;
+	 font-weight: bold;
+ }
+ 
+ table.heat-map tbody tr td
+ {
+     border-left: 1px solid #E1E2E5;
+	 border-bottom: 1px solid #E1E2E5;
+	 text-align: center;
+	 background: #F7F8FA;
+ }
+ table.heat-map tbody tr.boldRow,  table.heat-map tbody tr td.boldCol
+ {
+     font-weight: bold;
+ }
+  table.heat-map tbody tr.grayRow td, table.heat-map tbody tr td.grayCol
+  {
+     color: #3F4145;
+     background: #BFC2C5;
+	 border-left: 1px solid #E1E2E5;
+	 border-top: 1px solid #E1E2E5;
+ }
+ 
+ 
+ 
+ 
+ 
+ table.heat-map-thumbnail
+ {
+ width:30%;
+ /* font-family:'GE Inspira', Arial; */
+ font-family: "Inconsolata","Consolas",monospace;
+ margin:auto;
+ clear:both;
+ }
+  table.heat-map-thumbnail th.first
+ {
+ width:5%;
+ }
+ 
+ table.heat-map-thumbnail thead th
+ {
+    color: #313337;
+   background: #999C9F;
+     border-left: 1px solid #E1E2E5;
+	    padding: 5px;
+    vertical-align: middle;
+	/* font-weight: bold;*/
+	 font-size: 7px;
+	 
+	 padding-bottom: 0px;
+     padding-top: 0px;
+     line-height: 12px;
+     font-weight: bold;
+ }
+ 
+  table.heat-map-thumbnail tbody tr th , table.heat-map-thumbnail tbody tr td
+ {
+ 	 
+ 	 height: 2px !important;
+     padding: 0px !important;
+     margin:0px !important;
+     line-height:10px !important;
+ }
+ 
+ .centered-thumbnail
+ {
+     width:100%;
+ }
+ 
+ table.heat-map-thumbnail tbody tr td
+ {
+     border-left: 1px solid #E1E2E5;
+	 border-bottom: 1px solid #E1E2E5;
+	 text-align: center;
+	 background: #F7F8FA;
+	 font-size: 7px;
+ }
+ table.heat-map-thumbnail tbody tr.boldRow,  table.heat-map-thumbnail tbody tr td.boldCol
+ {
+     font-weight: bold;
+     font-size: 7px;
+     
+ }
+  table.heat-map-thumbnail tbody tr.grayRow td, table.heat-map-thumbnail tbody tr td.grayCol
+  {
+     color: #3F4145;
+     background: #BFC2C5;
+	 border-left: 1px solid #E1E2E5;
+	 border-top: 1px solid #E1E2E5;
+	 	 font-size: 7px;
+	 
+ }
+ 
+ 
+ div.OperatHoursHead
+ {
+ font-family:'GE Inspira', Arial; font-weight:bold; position:relative; font-size: 16pt; color:#7b7c7b; margin-top:10px;
+ }
+
+ /* IE  header alignment Issue */
+.navbar .brand
+{
+min-width:450px;
+}
+
+/* Fixing header for the Qualifier Page */
+body.sticky-header
+{
+padding-top: 170px;
+} 
+
+
+
+/* Latest UX COE Integration Fixes */
+
+input.error, textarea.error {
+border-color: #EE3324;
+}
+
+.table-source:hover {
+text-decoration: none;
+}
+
+/*Header Fixing for Qualifier Page while minimizing */
+
+@media (max-width: 979px) {
+.navbar-fixed-top{
+position: fixed !important;
+}
+}
+
+
+/* Data Tables */
+table.dataTable {
+    /* Override a bootstrap style that breaks scrolling datatables in IE and FF */
+    max-width: none;
+}
+
+
+.user-utilities .user-name {max-width:none;}
+
+div.yearClassStart { font-size:18px; font-weight:bold; float:left;}
+
+/* Launch Page Box size fixing */
+div.well {  padding-bottom :22px; min-height :0px !important;}
+
+
+
+/*Hand-cursor symbol for close button*/ 
+.btn-circle-close:hover, .icon-remove-sign:hover
+{
+cursor:pointer !important;
+}
+
+/* GE Inspira font implementation for IE */
+@font-face {
+   font-family: 'ge-inspira';
+src: url('../fonts/GEInspRg.eot');
+   
+   font-weight: normal;
+   font-style: normal;
+}
+/* Firefox - Dropdown Style issue */
+select optgroup[label] {
+   font-style:normal;
+}
+div.ovcFieldIdSpan input[type="file"]{
+ width:auto;
+}
+.fade1 {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  -moz-transition: opacity 0.15s linear;
+  -ms-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+.fade1.in {
+  opacity: 1;
+}
+input[type="text"]
+{
+line-height:20px !important;
+}
+
+div.carousel-control-div a.carousel-control{
+margin-top: 337px !important;
+}
+
+/*carousel start*/
+
+/*div.main-chart{width:50% !important; margin:auto;}*/
+
+.arrowDisabled , .arrowDisabled :hover{opacity:0.1 !important; cursor:not-allowed !important;}
+div.tab-btn-group
+{
+clear:both;
+margin-top:30px;
+display:none;
+}
+.tab-btn{
+width: 20%;
+font-weight: bold !important;
+}
+.selected-tab{
+background-color: #0797cd !important;
+color:white !important;
+}
+.main-chart{
+display:none;
+}
+#asOfDiv{
+margin-bottom:50px !important;
+}
+/*carousel end*/
+
+
+/* IPAD heat-map load profile issue */
+@media (max-width: 1024px) {
+#thumnail2011div, #thumnail2012div, #thumnail2013div {width:100%;clear:both;}
+}
+
+
+/* Proforma Input */
+#divheatmap td,#divheatmap th {font-size:10px !important; line-height: 1.4;}
+
+
+/*  Proforma Input - fixing the validation message */
+.fixedWarningMsg {
+position: fixed;
+z-index: 9999;
+width: 78.7%;
+} 
+
+
+/* Proforma o/p popup ipad issue fix */
+#valueLeverIdPopUp {top:50% !important;left:40%;}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+#valueLeverIdPopUp {left:40% !important;}
+}
+
+
+
+/*Proforma input -business model */
+#bussMain .businessImg {cursor:pointer;}
+
+
+
+/*proforma Starts overlapping on resizing fix */
+@media  (min-width: 750px) and (max-width: 1000px)  {
+#divheatmap td, #divheatmap th {
+font-size: 8px !important;
+}
+}
+
+
+/* Prospecting Table */
+.detail-table td {background:white !important;}
+
+#modalBackDrop { 
+	opacity: 0.1 !important;
+	filter: alpha(opacity=10) !important;
+}
+
+/* ge-monogram */
+
+.navbar a.brand img {width:36px; height:37px;} 
+
+
+.quartile_1 {
+background-color: #ed8000;
+}
+
+.quartile_2 {
+background-color: #f4b366;
+}
+
+   .secondary-nav li.dropdown-hover:hover ul{display: block;}
+	.secondary-nav li.dropdown-hover a:hover {background-color:#bfc2c5 !important; color:white !important;}
+.secondary-nav .dropdown-menu {margin-top:0px !important;}	
+.btn-primary2{
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25) !important;
+	background-color: #000000 !important;
+	background-image: #000000 !important;
+	border-color: #04c #04c #002a80 !important;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25) !important;
+	color: white;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0044cc',GradientType=0) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false) !important;
+	-webkit-border-radius: 4px;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 2px 10px;
+	}

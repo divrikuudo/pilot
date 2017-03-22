@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+
+.display-menu li {
+	cursor: pointer;
+}
+
+ul.display-menu {
+	visibility: hidden;
+	position: absolute;
+	top: 100%;
+	opacity: 0;
+	margin-left: 0px;
+	list-style: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	padding-top: 5px;
+	border-radius: 4px;
+}
+
+.nav li:hover .display-menu {
+	display: inline-block;
+	visibility: visible;
+	height: 100px;
+	width: 150px;
+	opacity: 1;
+	z-index: 1001;
+}
+
+.nav li:hover .display-menu li {
+	line-height: 40px;
+	padding-left: 20px;
+	visibility: visible;
+	opacity: 1;
+	font-size: 12px;
+	background-color: #3f4145;
+	color: #999c9f;
+	z-index: 1001;
+	text-align: left;
+}
+
+.nav li .display-menu li:hover {
+	background-color: #3b73b9;
+	color: white;
+}

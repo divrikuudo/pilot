@@ -1,0 +1,148 @@
+@CHARSET "ISO-8859-1";
+.disable {
+	background: #DDDDDD;
+}
+
+.riskActive {
+	border-color: #e1e2e5;
+	color: white;
+	background: #FD0642;
+}
+
+#searchTable .cm_perct {
+	text-align: right;
+}
+
+#searchTable .om {
+	text-align: right;
+}
+
+.oppActive {
+	border-color: #e1e2e5;
+	color: rgb(65, 49, 49);
+	background: #1AFD06;
+}
+
+.sales:focus,.cm:focus {
+	border: 1px solid orange;
+}
+
+.naActive {
+	border-color: #e1e2e5;
+	color: #5c5f63;
+	background: #c8cfdd;
+}
+
+.riskActive:hover {
+	border-color: #e1e2e5;
+	color: white;
+	background: #FD0642;
+}
+
+.oppActive:hover {
+	border-color: #e1e2e5;
+	color: rgb(65, 49, 49);
+	background: #1AFD06;
+}
+
+.naActive:hover {
+	border-color: #e1e2e5;
+	color: #5c5f63;
+	background: #c8cfdd;
+}
+
+.highActive {
+	border-color: #e1e2e5;
+	color: #5c5f63;
+	background: #FCB216;
+}
+
+.medActive {
+	border-color: #e1e2e5;
+	color: #5c5f63;
+	background: #FCFC16;
+}
+
+.lowActive {
+	border-color: #e1e2e5;
+	color: #5c5f63;
+	background: #7ED6FF;
+}
+
+.highActive:hover {
+	border-color: #e1e2e5;
+	color: #5c5f63;
+	background: #FCB216;
+}
+
+.medActive:hover {
+	border-color: #e1e2e5;
+	color: #5c5f63;
+	background: #FCFC16;
+}
+
+.lowActive:hover {
+	border-color: #e1e2e5;
+	color: #5c5f63;
+	background: #7ED6FF;
+}
+
+.pullin {
+	background: green;
+	color: white;
+}
+
+.pullout {
+	background: red;
+	color: white;
+}
+
+.tab-btn-active {
+	background-color: #3b73b9;
+	color: #fff;
+	border: 0;
+}
+
+.tab-btn-active:hover {
+	background-color: #3b73b9;
+	color: #fff;
+}
+
+#searchTable .qtryearalign {
+	text-align: left;
+	padding-left: 9px;
+}
+
+#searchTable .salesalign {
+	text-align: right;
+	padding-right: 6%;
+}
+
+#searchTable .cmalign {
+	text-align: right;
+	padding-right: 6%;
+}
+
+#searchTable .leftAlign {
+	text-align: left;
+}
+
+#searchTable .salesTh {
+	width: 9%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#searchTable td{
+	word-break: break-all;
+}
+
+li.cursor-default a:hover {
+	cursor: default !important;
+	color: #999c9f;
+}
+
+.navbar .nav>li.cursor-default>a {
+	cursor: default !important;
+	color: #999c9f;
+}

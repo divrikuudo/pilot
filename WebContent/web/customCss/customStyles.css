@@ -1,0 +1,46 @@
+ul,li{ list-style-type:none;}
+a {cursor:pointer;color: inherit;text-decoration: none !important;}
+/* i {padding-right:0px;cursor:pointer;}*/
+ body{font-size:14px;font-family:"ge-inspira","Helvetica Neue",Helvetica,Arial,sans-serif;}
+select,input{font-size:14px;background-color:#fff!important;color:#313337!important;
+				border:1px solid #E1E2E5;border-radius:5px !important;width:100%;}
+.footer {position:fixed;bottom:0px;width:100%;} 
+.sectionMargin {margin: 8% 0 5% 0;}
+.iconFontsize {font-size:18px;}
+.no-wrap {white-space:nowrap;}
+table td,.txtCenter {}
+.actionLink {color:#3B73B9; text-decoration: underline !important;}
+
+.filter-table .quick { margin-left: 0.5em; font-size: 0.8em; text-decoration: none; }
+.fitler-table .quick:hover { text-decoration: underline; }
+td.alt { background-color: #ffc; background-color: rgba(255, 255, 0, 0.2); }
+
+/* Added for create checklist page */
+.sectMainDiv{padding-left:10px; box-sizing:border-box;}
+.stepMainDiv{ padding-left:10px; box-sizing:border-box;}
+.quesMainDiv{ padding-left:10px; box-sizing:border-box;}
+.ques {float: left; width: 100%; min-height: 80px; background: #f2f3f4; border: 1px solid #c8d2d8; box-sizing: border-box;}
+.ans {float: left; width: 98.8%;  background: #f2f3f4; margin-left: 10px;  min-height: 80px; border: 1px solid #c8d2d8; box-sizing: border-box;}
+.maindiv .qs .popover{left:-71px;}
+.addSectionDiv input[type="text"]{width:97%;}
+
+.FCBg img{float: left; padding-top: 13px;padding-left: 15px;}
+.FCBg span{float: left; color: #a7a7a7;  font-size: 14px; margin-top: 10px; margin-left: 20px;}
+.FCBg img[src="images/drag.png"]{float: right; margin-right: 20px;  margin-top: 4px;}
+.guideImgbox{width:75%!important; text-align:left!important;  margin-top: 10px!important; float:left;}
+.guideImgbox .ansTxtAreaSect p{margin-left:10px; padding-top:2px; float:left;}
+.guideImgbox i.icon-info-sign{color:#000!important; font-size:13px; margin-left:5px;} 
+.guideImgbox i.icon-camera{color:#A59696; font-size:13px;}
+.guideImgbox .addGuideImg{float: left; width: auto; margin-left: 12px; clear:left;}
+.guideImgbox #addFormImage_{width: 75px; padding-bottom: 10px; padding-top: 0; float: left; margin-left: 10px;}
+.guideImgbox .imgDimensions{margin-top:0; position:relative;}
+.guideImgbox .delImageForm{position: absolute;    z-index: 9;    left: 0;    bottom: 0;    color: #000;    background: #fff;    padding: 2px 3px 2px 2px;}
+.propRules{float: right; margin: 0; width: 125px; padding-right: 10px; margin-bottom: 8px;}
+.propRules li{float: left; border-bottom: 1px solid #B9B0B0;   padding: 0px 0 10px 0;  margin-bottom: 10px;  width: 100%;}
+.propRules li a{text-indent: 11px; float: left;}
+.propRules li:last-child{ border-bottom:0; margin-bottom:0;}
+.guideImgbox .ansTxtAreaSect{ margin-bottom:7px;}
+.guideImgbox .addImagesDynamic img{width: 60px;height: auto; border-radius: 5px;}
+
+.qs{margin-right:0!important;}
+.dragIcon{background-color: #F2f3f4; float:right; margin-top:-22px; margin-right:7px;}

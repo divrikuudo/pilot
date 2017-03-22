@@ -1,0 +1,30 @@
+.clear	{clear:both;}
+a:active, a:focus, input {
+    outline: 0;
+    outline-style:none;
+    outline-width:0;
+}
+.active {background:blue;}
+
+/* ------------------------------------BODY --------------------------------------- */
+.horizontal_line		{ border:1px solid #CCCED1; margin:40px 0px 20px 0px;}
+.page_header			{ margin-bottom:10px;}
+.secondry_menu			{ margin-right:3%;}
+.secondry_menu button		{ Padding:5px 10px !important; margin:5px; }
+.prj_desc_left			{ width:25%; font-size:12px; margin-right:10%; }
+.prj_desc_left span		{ margin:4px 0px 4px 0px; float:left;}
+.prj_desc_right span		{ margin:4px 0px 4px 0px; float:left;}
+.prj_desc_right			{ width:30%; font-size:12px; min-width:100px;}
+.body_table				{ margin-top:20px;}
+.body_table table			{ background:white;}
+.dropdown_settings		{ margin-top:0px; right:60% !important;}
+
+/* ------------------------------------CSA_data --------------------------------------- */
+
+.prj_desc_left_csa			{ width:30%; font-size:12px; margin-right:10%;}
+.prj_desc_left_csa span		{ margin:4px 0px 4px 0px; float:left;}
+.attribe_table_left				{ width:49%;}
+.attribe_table_right					{ width:49%;}
+.attribe_table_left			{ margin-right:2%}	
+.body_table_csa			{ margin-top:0px;}
+.body_table_csa	table	{ background:white;}

@@ -1,0 +1,249 @@
+label {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+
+/* search criteria start*/
+.input-prepend {
+    margin-bottom: 10px;
+}
+.important-paragraph {
+    margin: 20px 0 30px;
+}
+.loud {
+    font-weight: bold;
+    color: #ED8000;
+}
+.search-criteria-left{
+    
+	float:left;
+}
+.search-criteria-right{
+   float:left;
+ margin-left:0%;
+}
+span.searchCriteria,span.searchResult{
+   font-size:15px;
+   font-weight:bold;
+}
+form.form-cumulative{
+   float:right;
+}
+div.clear-float{
+clear:both;
+}
+div.datepicker-dropdown thead th{
+background:white;
+color:black;
+}
+
+.form-horizontal .control-group{
+margin-bottom:10px !important;
+}
+.chzn-container-multi .chzn-choices {
+margin-bottom: 10px;
+}
+.datepicker-outage{
+margin-top:-14px ;
+}
+form.form-unit-config{
+float:right\9;
+}
+.search-criteria-right label{margin-right:10px;margin-left:5px;}
+form.form-unit-config, form.form-cumulative, form.form-csa-types{margin-bottom:14px !important;;}
+div.primary-navbar li.disabled{cursor:default;}
+div.primary-navbar li.disabled a:hover{cursor:default; color: #BFC2C5 !important;}
+@media (max-width: 767px)
+{
+input.input-cumulative {width:50%;}
+
+form.form-cumulative {float:left;}
+
+form.form-csa-types, form.form-unit-config,div.div-date,div.div-outages-date{ float: left;}
+
+div.btn-search-units {float:left;}
+
+.search-criteria-right .search-criteria-right .search-criteria-right {margin-left:0px !important;}
+
+}
+
+label.csa-trigger-range{width: 215px !important; margin-left: -50px;}
+/* end of search criteria  */
+/******* admin page**********/
+
+
+
+
+
+/* ie fixes ---search criteria */
+div.span12 {width:98%\9;}
+
+div.search-criteria-right{width:auto\9;float:left\9;margin:0px\9;margin-left:6%\9;}
+
+div.container-main{width:80%\9;}
+
+.navbar .container {width:80%\9;}
+
+.datepicker-bootstrap-to{}
+/* ie fixes-end*/
+
+
+
+
+
+/* search results start*/
+div.data-grid-filter{width:100%;}
+.search-criteria-filter{margin-top:10px; margin-bottom:15px;}
+.search-criteria-main{clear:both;}
+.search-result-main{clear:both;}
+
+div.wrap_DataGrid{width:100%;overflow:auto;clear:both;}
+
+table.dataGrid{max-width:none;}
+
+table.dataGrid td.success {
+background-color: #75BC43;
+}
+table.dataGrid  td.warning {
+background-color: #EB821B;
+}
+span.selectedSpan{margin-left:30px;}
+span.datagrid-legend{float:right;}
+label.checkbox{margin-left:5px;}
+div.div-save-continue{margin-top:10px;}
+input.date-input{width:70px;}
+
+.btn-save-cont{margin-top:10px;}
+
+/* modal--shopping cart */
+
+.modal-header h3 { padding:10px 0px 0px 10px;}
+span.btn-circle-close{cursor:pointer;}
+
+
+
+
+div.innerDetailDiv{height:100%;;width:100%;/*border:1px solid green;*/}
+div.innerdiv1,div.innerdiv2,div.innerdiv3{margin:10px;height:auto;
+width:auto;/*border:1px solid red;*/float:left;padding:5px;}
+div.innerdiv1{margin-left:25px;}
+span.innerHead{font-weight:bold;font-size:13px;}
+
+div.innerDetailDiv label{color:#999;}
+
+form.form-hor-right{clear:both;}
+
+.filter-search-result{margin-top:0px;margin-right:10px;}
+
+
+table.dataTable tr.unchchecked{background-color:blue;}
+
+div.inner-div-line{height:90%;margin:10px;width:1px;background-color:lightgray;float:left;}
+
+select.filter-criteria-1, select.filter-criteria-2 {width:auto;}
+
+
+/*------------------ Admin page krupal -----------------*/
+.clear	{clear:both;}
+a:active, a:focus, input {
+    outline: 0;
+    outline-style:none;
+    outline-width:0;
+}
+.header_button					{ width:10%; height:33px; font-size:14px; font-weight:bold; min-width:100px;}
+.sso_width						{margin-left:130px; float:left;}
+.user_email_label				{ margin-left:37px !important;}
+.margin-right_tenp				{ margin-right:10%;}
+.search_user					{ margin-top:0px;}
+.search_Results_starts			{ margin-top:40px;}
+.search_result_middle			{ margin: 15px 2% 0 0%; font-weight:bold; font-size:12px; width:auto; }
+.selected_result_middle			{ margin: 15px 2% 0 16%; font-weight:bold; font-size:12px; width:auto; }
+.checkbox_reset					{ margin:0px 2px 0px 10px !important; padding:0px;}
+.margin_left_chevon_down		{ margin-left:10px;}
+.bolder							{font-weight:bold;}
+.checkbox_margin				{ margin:2px 3% 0px 1%;}
+.top-margin-five				{ margin:6px 0px 0px 0px !important;}
+.save_continue_button			{ margin:10px 10px 0px 0px; width:60px; height:30px; font-weight:bold;}
+.alert_button					{ margin:0px 15px 0px 0px !important;}
+.radio_button_option			{ margin:2px 2% 0 3px; float:left;}
+.project_search_button			{ height:33px; width:80px !important; float:left; font-size:14px; margin:5px 10px 0px 0px;}
+.project_table_div				{ margin:0px 0px 0px 0px; padding:0px;}
+.Project_table td a				{ color:#239DC9;}
+.detail_color					{ color:#239DC9;}
+.modal							{left:41%;}
+.model-header					{padding:20px 15px 20px 15px !important;}
+.popup_select_box				{ margin-bottom:20px;}
+/*.project_name_popup_text		{margin:0 0 15px 44px !important}*/
+.project_name_popup_textarea	{margin:0px 0px 20px 10px !important;}
+/*.multiselect_popup_left			{min-width:300px; height:230px !important;}*/
+.multiselect_popup_left_label	{line-height:20px !important;}
+.table-modal-body				{min-height:250px; padding:22px;}
+.multibox_buttons				{ height:230px; width:100px; float:left; margin:0px 5% 0px 5%;}
+.multibox_buttons a				{ margin:15px 10px 15px 30%;}
+.button.tr-btn-show-hide		{width:70px; margin-top:10px;}
+.icon-cog						{ cursor:pointer;}
+.sectiontwo_table_searchbox		{ margin:15px 0px 0px 0px;}
+.Search_result_table_div		{ width:100% !important;}
+#sectionthree                  		         {padding-bottom: 0px !important;}
+#sectionfour					{ margin-top:0px !important!; padding-top:0px !important;}
+#viewUserStatusModal,#viewProjectStatusModal{ width:60% !important;}
+/* Admin -search via Project -jojo */
+
+
+.multiselect_popup_left			{width:81% ; height:230px !important;}
+
+.project_name_popup_text {width:255px !important;}
+#selectProject_dropDown{min-width:265px; width:auto;}
+
+label.admin_pjct{clear:both;}
+
+input.pjctNamePopupText {margin:0 0 15px 44px !important}
+
+.pjctNamePopupTextArea  {margin:0px 0px 20px 10px !important;width:255px !important;}
+
+div.availableUsers{
+
+width:81%;
+background-color: #27292C;
+color:white;
+text-align:center;
+}
+
+div.btn-group{
+clear:both;
+}
+.pjctNameTextArea,.turbineSNTextArea{
+width:255px !important;
+/*margin:0px 0px 20px 10px !important;*/
+}
+span.success{
+color: #76B900;
+}
+span.error{
+color: #EE3324;
+}
+span.revoke{
+color: #0797CD
+}
+
+div.multibox_buttons{
+float:left;
+}
+div.divAssignedUsers{
+float:left;
+}
+div.search_Results_starts{
+margin-top:0px;
+}
+div.btn_save_reset{
+margin-right:7%;
+}
+.project_name_display{
+margin:0px 0px 0px 5.5% !important;
+}
+
+div.button_group_div {margin-left:5%;}
+
+div.form_elem_proj{margin-bottom:0px !important;}
+
